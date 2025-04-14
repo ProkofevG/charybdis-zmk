@@ -150,8 +150,8 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
+  - $$mdi:bluetooth-off$$
   - $$mdi:bluetooth-off$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -171,10 +171,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT NXT
+  - BT PRV
+  - {t: '$$mdi:bluetooth-connect$$', h: '0'}
+  - {t: BT DISC, h: '0'}
   - {type: held}
   - PLAY PAUSE
   - STOP
