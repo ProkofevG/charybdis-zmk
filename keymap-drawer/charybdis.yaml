@@ -98,7 +98,7 @@ layers:
   - '@'
   - '#'
   - '`'
-  - {t: ▽, type: trans}
+  - $$mdi:keyboard-tab$$
   - '['
   - ']'
   - {t: ▽, type: trans}
@@ -262,7 +262,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
