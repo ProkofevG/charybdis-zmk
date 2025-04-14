@@ -76,9 +76,9 @@ layers:
   - '~'
   - '&'
   - '*'
-  - {t: ▽, type: trans}
+  - '?'
   - +
-  - {t: ▽, type: trans}
+  - <
   - '{'
   - '}'
   - {t: ▽, type: trans}
@@ -88,7 +88,7 @@ layers:
   - '%'
   - ^
   - '='
-  - {t: ▽, type: trans}
+  - '>'
   - (
   - )
   - '"'
@@ -114,36 +114,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UNDO
+  - PASTE
   - $$mdi:keyboard-tab$$
-  - {t: ▽, type: trans}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - COPY
+  - CUT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-caps$$
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INSERT
   - HOME
   - PAGE DOWN
   - PAGE UP
   - END
-  - INS
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   Media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -186,11 +186,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - REDO
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
